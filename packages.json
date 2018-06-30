@@ -541,7 +541,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "freeap": {
     "dependencies": [
@@ -1784,5 +1784,10 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
+  },
+  "pairing": {
+    "dependencies": ["free", "functors", "transformers"],
+    "repo": "https://github.com/paf31/purescript-pairing.git",
+    "version": "v5.1.0"
   }
 }
